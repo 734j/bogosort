@@ -37,6 +37,13 @@ int main() {
     
     if (solved == 1) { // If solved = 1 then the array is sorted. 
         printf("Solved! \nCounter: %d\n", counter);
+	printf("The solved array: ");
+	for (int loop = 0; loop < n ; loop++) {
+		printf("%d", arr[loop]);
+	}
+	
+	printf("\n");
+
         return 0;
     }
 
